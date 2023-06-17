@@ -4776,6 +4776,7 @@ figcaption,
 figure,
 footer,
 header,
+
 nav,
 section {
     display: block
@@ -4854,6 +4855,17 @@ a img {
     margin: 0 auto;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%)
+}
+
+.portfolioheader {
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    position:absolute;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
 }
 
 .header .site-title {
